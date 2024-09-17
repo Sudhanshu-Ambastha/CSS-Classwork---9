@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Certified Coffee Courses</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #000;
+        }
+
+        .container {
+            display: flex;
+            background: linear-gradient(to bottom, white, yellow );
+            width: 80%;
+            max-width: 900px;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .image-section {
+            flex: 1;
+        }
+
+        .image-section img {
+            width: 100%;
+            height: auto;
+        }
+
+        .text-section {
+            flex: 1;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+        }
+
+        .text-section h1 {
+            margin: 0;
+            font-size: 32px;
+            color: #000;
+        }
+
+        .text-section p {
+            margin: 15px 0;
+            font-size: 16px;
+            color: #333;
+        }
+
+        .text-section a {
+            color: black;
+            text-decoration: underline;
+        }
+
+        .learn-more {
+            margin-top: 20px;
+            padding: 10px 10px;
+            background-color: #000;
+            color: #fff;
+            text-transform: uppercase;
+            text-align: center;
+            font-size: 16px;
+            cursor: pointer;
+            display: inline-block;
+        }
+
+        .learn-more:hover {
+            background-color: #333;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="image-section">
+            <img src="./Coffee.png" alt="Coffee Image">
+        </div>
+        <div class="text-section">
+            <h1>Certified Coffee<br/> Courses</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur<br/> adipiscing elit, sed do eiusmod tempor<br/> incididunt ut labore et
+                dolore magna aliqua. Ut<br/> enim ad minim veniam, quis nostrud<br/> exercitation ullamco.</p>
+            <p>Image from <a href="#">Freepik</a></p>
+            <div class="learn-more">Learn More</div>
+        </div>
+    </div>
+</body>
+
+</html>
